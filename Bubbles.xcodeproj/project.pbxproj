@@ -14,6 +14,13 @@
 		174CD59C1C7B711500CD2A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174CD59A1C7B711500CD2A56 /* Main.storyboard */; };
 		174CD59E1C7B711500CD2A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174CD59D1C7B711500CD2A56 /* Assets.xcassets */; };
 		174CD5A11C7B711500CD2A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174CD59F1C7B711500CD2A56 /* LaunchScreen.storyboard */; };
+		17D5BA1F1C90B41500DED69B /* 1-pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17D5BA1A1C90B41500DED69B /* 1-pop.wav */; };
+		17D5BA231C90B41500DED69B /* feelin-good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17D5BA1E1C90B41500DED69B /* feelin-good.mp3 */; };
+		17D5BA291C90B86200DED69B /* 2-pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17D5BA241C90B86200DED69B /* 2-pop.wav */; };
+		17D5BA2A1C90B86200DED69B /* 3-pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17D5BA251C90B86200DED69B /* 3-pop.wav */; };
+		17D5BA2B1C90B86200DED69B /* 4-pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17D5BA261C90B86200DED69B /* 4-pop.wav */; };
+		17D5BA2C1C90B86200DED69B /* 5-pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17D5BA271C90B86200DED69B /* 5-pop.wav */; };
+		17D5BA2D1C90B86200DED69B /* 6-pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17D5BA281C90B86200DED69B /* 6-pop.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		174CD59D1C7B711500CD2A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		174CD5A01C7B711500CD2A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		174CD5A21C7B711500CD2A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D5BA1A1C90B41500DED69B /* 1-pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "1-pop.wav"; sourceTree = "<group>"; };
+		17D5BA1E1C90B41500DED69B /* feelin-good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "feelin-good.mp3"; sourceTree = "<group>"; };
+		17D5BA241C90B86200DED69B /* 2-pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-pop.wav"; sourceTree = "<group>"; };
+		17D5BA251C90B86200DED69B /* 3-pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "3-pop.wav"; sourceTree = "<group>"; };
+		17D5BA261C90B86200DED69B /* 4-pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4-pop.wav"; sourceTree = "<group>"; };
+		17D5BA271C90B86200DED69B /* 5-pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "5-pop.wav"; sourceTree = "<group>"; };
+		17D5BA281C90B86200DED69B /* 6-pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "6-pop.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 		174CD5861C7B711400CD2A56 = {
 			isa = PBXGroup;
 			children = (
+				17D5BA191C90B3BE00DED69B /* Sounds */,
 				174CD5911C7B711500CD2A56 /* Bubbles */,
 				174CD5901C7B711500CD2A56 /* Products */,
 			);
@@ -68,6 +83,20 @@
 				174CD5A21C7B711500CD2A56 /* Info.plist */,
 			);
 			path = Bubbles;
+			sourceTree = "<group>";
+		};
+		17D5BA191C90B3BE00DED69B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				17D5BA241C90B86200DED69B /* 2-pop.wav */,
+				17D5BA251C90B86200DED69B /* 3-pop.wav */,
+				17D5BA261C90B86200DED69B /* 4-pop.wav */,
+				17D5BA271C90B86200DED69B /* 5-pop.wav */,
+				17D5BA281C90B86200DED69B /* 6-pop.wav */,
+				17D5BA1A1C90B41500DED69B /* 1-pop.wav */,
+				17D5BA1E1C90B41500DED69B /* feelin-good.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,10 +158,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D5BA2B1C90B86200DED69B /* 4-pop.wav in Resources */,
 				174CD5951C7B711500CD2A56 /* GameScene.sks in Resources */,
 				174CD5A11C7B711500CD2A56 /* LaunchScreen.storyboard in Resources */,
 				174CD59E1C7B711500CD2A56 /* Assets.xcassets in Resources */,
 				174CD59C1C7B711500CD2A56 /* Main.storyboard in Resources */,
+				17D5BA2A1C90B86200DED69B /* 3-pop.wav in Resources */,
+				17D5BA2D1C90B86200DED69B /* 6-pop.wav in Resources */,
+				17D5BA2C1C90B86200DED69B /* 5-pop.wav in Resources */,
+				17D5BA231C90B41500DED69B /* feelin-good.mp3 in Resources */,
+				17D5BA1F1C90B41500DED69B /* 1-pop.wav in Resources */,
+				17D5BA291C90B86200DED69B /* 2-pop.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bubbles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = name.marsel.Bubbles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bubbles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = name.marsel.Bubbles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +333,7 @@
 				174CD5A71C7B711500CD2A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bubbles/GameScene.swift"
+            timestampString = "477954452.801582"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "GameScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bubbles.GameScene.init (Bubbles.GameScene.Type)(size : __C.CGSize) -&gt; Bubbles.GameScene"
+                  moduleName = "Bubbles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marsel/dev/Bubbles/Bubbles/GameScene.swift"
+                  timestampString = "477954491.074534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bubbles.GameScene.init (Bubbles.GameScene.Type)() -&gt; Bubbles.GameScene"
+                  moduleName = "Bubbles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marsel/dev/Bubbles/Bubbles/GameScene.swift"
+                  timestampString = "477954491.074914"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bubbles.GameScene.init (Bubbles.GameScene.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Bubbles.GameScene&gt;"
+                  moduleName = "Bubbles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marsel/dev/Bubbles/Bubbles/GameScene.swift"
+                  timestampString = "477954491.075279"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
